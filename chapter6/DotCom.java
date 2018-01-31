@@ -2,12 +2,17 @@ import java.util.ArrayList;
 
 public class DotCom {
 
+	private String name;
 	private ArrayList<String> locationCells;
 	int numOfHits = 0;
 
 	public void setLocationCells(ArrayList<String> locs) {
 		locationCells = locs;
 	}
+
+    public void setName(String string) {
+        name = string;
+    }
 
 	public String checkYourSelf(String userInput) {
 
